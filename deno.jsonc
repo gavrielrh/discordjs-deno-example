@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --watch -A main.ts",
+    "deploy:commands": "deno run -A deploy-commands.ts"
+  },
+  "imports": {
+    "discord": "npm:discord.js@14.11.0"
+  }
+}
